@@ -1,0 +1,116 @@
+{
+  "uid" : "8297909ebf3ef659",
+  "name" : "I am on the google search page",
+  "fullName" : "Performing a Google Search Performing a search operation.I am on the google search page",
+  "historyId" : "bf732df564f9007129ad64da3fd1f0cf",
+  "time" : {
+    "start" : 1552129327473,
+    "stop" : 1552129329096,
+    "duration" : 1623
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2d396d4a3cc24cd2502dd00475df65ce/url",
+      "time" : {
+        "start" : 1552129327476,
+        "stop" : 1552129328081,
+        "duration" : 605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8f7bb35e49ad90b",
+        "name" : "Request",
+        "source" : "f8f7bb35e49ad90b.json",
+        "type" : "application/json",
+        "size" : 35
+      }, {
+        "uid" : "40a54be901079b6b",
+        "name" : "Response",
+        "source" : "40a54be901079b6b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/2d396d4a3cc24cd2502dd00475df65ce/title",
+      "time" : {
+        "start" : 1552129329086,
+        "stop" : 1552129329094,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3b7dd8385ea8099",
+        "name" : "Response",
+        "source" : "f3b7dd8385ea8099.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Google Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the google search page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8297909ebf3ef659.json",
+  "parameterValues" : [ "chrome" ]
+}

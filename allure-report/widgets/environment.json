@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"browserName\":\"chrome\",\"maxInstances\":\"5\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/jurgendereu/Apps/temp/wdio4-cucumber/test/features/google-search.feature\"]" ],
+  "name" : "spec files"
+} ]

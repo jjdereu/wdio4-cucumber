@@ -1,0 +1,105 @@
+{
+  "uid" : "ef3bab3785e7c96a",
+  "name" : "I click on the enter key",
+  "fullName" : "Performing a Google Search Performing a search operation.I click on the enter key",
+  "historyId" : "2203374456577e52df51169f210d81cf",
+  "time" : {
+    "start" : 1552129388238,
+    "stop" : 1552129390430,
+    "duration" : 2192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/44c4419ad8e92328ddfebe6c6221a7f2/keys",
+      "time" : {
+        "start" : 1552129388239,
+        "stop" : 1552129390430,
+        "duration" : 2191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf01bf55bcefe66b",
+        "name" : "Request",
+        "source" : "bf01bf55bcefe66b.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "ceed8f5741fa7a7e",
+        "name" : "Response",
+        "source" : "ceed8f5741fa7a7e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Google Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the enter key"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Google Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38fa4878e21c72f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552129330338,
+        "stop" : 1552129332883,
+        "duration" : 2545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef3bab3785e7c96a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Performing a Google Search Performing a search operation",
+    "children" : [ {
+      "name" : "I am on the google search page",
+      "uid" : "1a5358893f4ef9d",
+      "parentUid" : "51b452a814677d908e3abe113f1d04fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552129385373,
+        "stop" : 1552129386999,
+        "duration" : 1626
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I enter \"Selenium Webdriver\" into the google search box",
+      "uid" : "4fe56cda7401b376",
+      "parentUid" : "51b452a814677d908e3abe113f1d04fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552129387000,
+        "stop" : 1552129388238,
+        "duration" : 1238
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the enter key",
+      "uid" : "ef3bab3785e7c96a",
+      "parentUid" : "51b452a814677d908e3abe113f1d04fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552129388238,
+        "stop" : 1552129390430,
+        "duration" : 2192
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of google search results",
+      "uid" : "632bdb971763b8ae",
+      "parentUid" : "51b452a814677d908e3abe113f1d04fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552129390431,
+        "stop" : 1552129390494,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "51b452a814677d908e3abe113f1d04fe"
+  } ]
+}

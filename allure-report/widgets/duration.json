@@ -1,0 +1,41 @@
+[ {
+  "uid" : "632bdb971763b8ae",
+  "name" : "I should see a list of google search results",
+  "time" : {
+    "start" : 1552129390431,
+    "stop" : 1552129390494,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a5358893f4ef9d",
+  "name" : "I am on the google search page",
+  "time" : {
+    "start" : 1552129385373,
+    "stop" : 1552129386999,
+    "duration" : 1626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fe56cda7401b376",
+  "name" : "I enter \"Selenium Webdriver\" into the google search box",
+  "time" : {
+    "start" : 1552129387000,
+    "stop" : 1552129388238,
+    "duration" : 1238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3bab3785e7c96a",
+  "name" : "I click on the enter key",
+  "time" : {
+    "start" : 1552129388238,
+    "stop" : 1552129390430,
+    "duration" : 2192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
